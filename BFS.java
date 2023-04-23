@@ -1,6 +1,6 @@
 //wap to implement bredth first search
 import java.util.*;
-public class BFS
+public class BFS   //tc-O(n)
 {
 
     //create a edge class 
@@ -20,7 +20,7 @@ public class BFS
 
     }
 
-    //create a function of create graph
+    //create a function of create graph//tc O(V+E)
     static void createGraph(ArrayList<Edge> graph[])
     {
         for(int i=0;i<graph.length;i++)
